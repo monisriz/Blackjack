@@ -1,0 +1,141 @@
+html, body {
+  font-family: 'Ubuntu', sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #966F33;
+}
+#table {
+  height: 100vh;
+  width: 100vw;
+  background-color: darkgreen;
+}
+
+.rowhead {
+  background-color: lightgrey;
+  height: 5vh;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+div.tophead {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+#messages {
+  font-size: 2em;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.hand {
+  height: 20vh;
+  width: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hand img.animated {
+  height: 70%;
+  width: auto;
+  padding: 0px 4px;
+}
+
+
+.playerstats {
+  background-color: lightgrey;
+  height: 5vh;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.playerSection {
+  height: 35vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chips, .controlButtons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+button.chipButton {
+  background-color: inherit;
+  border-style: none;
+  padding: 0;
+  outline: none;
+  height: 100%;
+  width: 20vw;
+}
+
+button.chipButton:active {
+  transform: translateX(5px);
+}
+
+img.chip {
+  height: auto;
+  width: 20vw;
+}
+
+.controlButtons button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3em;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 30vw;
+  height: 10vh;
+  outline: none;
+
+}
+
+.controlButtons button:active {
+  transform: translateX(5px);
+}
+
+#bet-button {
+  background-color: #008ae6;
+}
+
+#cancel-button {
+  background-color:  #ff3333;
+}
+
+#deal-button {
+  background-color: #00ccff;
+}
+
+#hit-button {
+  background-color:  #ff00ff;
+}
+
+#stand-button {
+  background-color: #ff9900;
+}
