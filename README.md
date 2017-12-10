@@ -1,10 +1,11 @@
 # Blackjack App
-
+<strong>https://blackjack.monisrizvi.com/</strong>
+<br><br>
 <strong>Description</strong><br>
   An implementation of the popular card game using the most commonly used rules.
 
 <br>
-  
+
 <strong>Technologies Used</strong><br>
 <ul>
   <li>JavaScript</li>
